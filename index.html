@@ -4,55 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SereniTea Café – Mzuzu, Malawi</title>
+  <!-- Google Font for modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Header / Navigation -->
   <header>
-    <h1>SereniTea Café</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#menu">Menu</a>
-      <a href="#events">Events</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Visit Us</a>
-    </nav>
+    <div class="container">
+      <h1>SereniTea Café</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Visit Us</a>
+      </nav>
+    </div>
   </header>
 
   <!-- Hero Section -->
   <section id="hero">
-    <img src="hero-drinks.jpg" alt="Colorful drinks on a wooden table at SereniTea Café">
-    <div class="hero-text">
+    <div class="hero-overlay">
       <h2>A Calm Brew in the Heart of Mzuzu</h2>
       <p>Handcrafted drinks, serene atmosphere, community events.</p>
       <a href="#menu" class="btn">View Menu</a>
       <a href="#contact" class="btn">Get Directions</a>
     </div>
+    <img src="hero-drinks.jpg" alt="Colorful drinks on a wooden table at SereniTea Café">
   </section>
 
   <!-- About Section -->
-  <section id="about">
+  <section id="about" class="container">
     <h2>About SereniTea Café</h2>
     <p>Located in Serenity Garden, Mzuzu City, SereniTea Café offers a calm and welcoming environment where handcrafted drinks, fresh smoothies, and herbal teas meet a relaxing ambience. Join us for coffee, tea, or a vibrant social evening with live events.</p>
   </section>
 
   <!-- Menu Section -->
-  <section id="menu">
+  <section id="menu" class="container">
     <h2>Menu Highlights</h2>
     <div class="menu-cards">
       <div class="card">
+        <img src="iced-tea.jpg" alt="Iced tea drink">
         <h3>Iced Teas</h3>
         <p>Refreshing handcrafted iced teas with natural flavors and fresh lime.</p>
-        <img src="iced-tea.jpg" alt="Iced tea drink">
       </div>
       <div class="card">
         <h3>Herbal Drinks</h3>
         <p>Natural herbal blends served chilled or warm, perfect for relaxation.</p>
       </div>
       <div class="card">
+        <img src="smoothie.jpg" alt="Fruit smoothie">
         <h3>Smoothies</h3>
         <p>Fruit-packed smoothies, vibrant and nutritious.</p>
-        <img src="smoothie.jpg" alt="Fruit smoothie">
       </div>
       <div class="card">
         <h3>Coffee & Tea</h3>
@@ -63,13 +67,15 @@
 
   <!-- Events Section -->
   <section id="events">
-    <h2>Events</h2>
-    <img src="evening-events.jpg" alt="Evening ambience at SereniTea Café">
-    <p>Join us for Dinner & Jazz Nights in a cozy and serene environment. Our events are a perfect way to enjoy live music and great drinks with friends.</p>
+    <div class="container">
+      <h2>Events</h2>
+      <img src="evening-events.jpg" alt="Evening ambience at SereniTea Café">
+      <p>Join us for Dinner & Jazz Nights in a cozy and serene environment. Our events are a perfect way to enjoy live music and great drinks with friends.</p>
+    </div>
   </section>
 
   <!-- Gallery Section -->
-  <section id="gallery">
+  <section id="gallery" class="container">
     <h2>Gallery</h2>
     <div class="gallery-grid">
       <img src="hero-drinks.jpg" alt="Drinks on a table">
@@ -80,7 +86,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
+  <section id="contact" class="container">
     <h2>Visit Us</h2>
     <p>Location: Serenity Garden, Mzuzu City, Malawi</p>
     <p>Opening Hours: Opens 10:00 AM (Tue onward)</p>
@@ -89,7 +95,7 @@
   </section>
 
   <!-- Reviews Section -->
-  <section id="reviews">
+  <section id="reviews" class="container">
     <h2>Reviews</h2>
     <p>⭐⭐⭐⭐⭐ 5.0/5</p>
     <ul>
@@ -101,10 +107,12 @@
 
   <!-- Footer -->
   <footer>
-    <p>© 2026 SereniTea Café</p>
-    <div class="social">
-      <a href="#">Facebook</a> |
-      <a href="#">Instagram</a>
+    <div class="container">
+      <p>© 2026 SereniTea Café</p>
+      <div class="social">
+        <a href="#">Facebook</a> |
+        <a href="#">Instagram</a>
+      </div>
     </div>
   </footer>
 
